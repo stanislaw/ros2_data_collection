@@ -1,0 +1,17 @@
+[project]
+
+include_doc_paths = [
+  "requirements/*.sdoc"
+]
+
+include_source_paths = [
+  "dc_*/test/**"
+]
+
+features = [
+  "TABLE_SCREEN",
+  "TRACEABILITY_SCREEN",
+  "DEEP_TRACEABILITY_SCREEN",
+  "REQUIREMENTS_COVERAGE_SCREEN",
+  "REQUIREMENT_TO_SOURCE_TRACEABILITY",
+]
